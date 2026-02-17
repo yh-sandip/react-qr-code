@@ -23,8 +23,8 @@ function App() {
 
 
   let qrcolor = () => {
-    let qrcolor = '1234567890abcdef';
-    qrcolor = qrcolor.split('').sort(function () { return 0.5 - Math.random() }).join('').substring(0, 6);
+    // let qrcolor = '1234567890abcdef';
+    // qrcolor = qrcolor.split('').sort(function () { return 0.5 - Math.random() }).join('').substring(0, 6);
 
     return '000';
   }
@@ -69,6 +69,7 @@ function App() {
 
   useEffect(() => { setQr(`upi://pay?pa=${upi}&pn=${name}&am=${amount}&tn=${description}&cur=INR`); }, [upi, marchant, name, amount, description]);
   const useSearchParams = new URLSearchParams(window.location.search);
+
   useEffect(() => {
     if (useSearchParams.size > 0) {
       setShowPayment(true);
@@ -87,8 +88,7 @@ function App() {
     } else {
       setShowPayment(false);
     }
-    setShowPayment(showPayment);
-
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   const contentRef = useRef(null);
 
