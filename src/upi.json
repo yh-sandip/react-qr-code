@@ -31,12 +31,6 @@
     },
     {
         "id": 8,
-        "merchant_name": "Sandip Tawhare Axis Bank Credit Card",
-        "upi_id": "CC.9195278496882373@axisbank",
-        "notes": "Axis Bank Credit Card Bill"
-    },
-    {
-        "id": 8,
         "merchant_name": "Sandip Tawhare Axis Bank IOCL Rupay Credit Card",
         "upi_id": "CC.9195278496886798@axisbank",
         "notes": "Axis Bank IOCL Rupay Credit Card Bill"
