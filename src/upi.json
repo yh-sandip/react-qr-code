@@ -1,43 +1,51 @@
 [
     {
         "id": 1,
-        "merchant_name": "Sandip Tawhare HDFC Bank - G Pay",
+        "merchant_name": "HDFC Bank - G Pay",
         "upi_id": "sandiptawhare18081998-1@okhdfcbank",
-        "notes": ""
+        "notes": "",
+        "display": true
     },
     {
         "id": 2,
-        "merchant_name": "Sandip Tawhare Union Bank - G Pay",
+        "merchant_name": "Union Bank - G Pay",
         "upi_id": "sandiptawhare18081998-1@okaxis",
-        "notes": ""
+        "notes": "",
+        "display": true
     },
     {
         "id": 3,
-        "merchant_name": "Sandip Tawhare Axis Bank - G Pay",
+        "merchant_name": "Axis Bank - G Pay",
         "upi_id": "sandiptawhare18081998-2@okaxis",
-        "notes": ""
+        "notes": "",
+        "display": true
     },
     {
         "id": 4,
-        "merchant_name": "Sandip Tawhare PAYTM",
+        "merchant_name": "PAYTM",
         "upi_id": "9527849688@paytm",
-        "notes": ""
+        "notes": "",
+        "display": true
     },
     {
         "id": 5,
-        "merchant_name": "Sandip Tawhare IPPB",
+        "merchant_name": "IPPB",
         "upi_id": "9527849688@postbank",
-        "notes": ""
+        "notes": "",
+        "display": true
     },
     {
         "id": 8,
-        "merchant_name": "Sandip Tawhare Axis Bank IOCL Rupay Credit Card",
+        "merchant_name": "Axis Bank IOCL Rupay Credit Card",
         "upi_id": "CC.9195278496886798@axisbank",
-        "notes": "Axis Bank IOCL Rupay Credit Card Bill"
+        "notes": "Axis Bank IOCL Rupay Credit Card Bill",
+        "display": true
     },
     {
         "id": 9,
         "merchant_name": "Vaibhav Tawhare Axis Bank Credit Card",
         "upi_id": "CC.9195611371774610@axisbank",
-        "notes": "Axis Bank Credit Card Bill"
-    }]
+        "notes": "Axis Bank Credit Card Bill",
+        "display": false
+    }
+]

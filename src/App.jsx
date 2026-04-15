@@ -229,7 +229,7 @@ function App() {
                     <Form.Select aria-label="Merchant List" value={marchant} name="merchant" onChange={handleUpiId}>
                       <option value="">Select Any of this</option>
                       {upiJson.map((item, index) => (
-                        <option key={index} value={item.upi_id}>
+                        <option key={index} value={item.upi_id} hidden={!item.display}>
                           {item.merchant_name}
                         </option>
                       ))}
